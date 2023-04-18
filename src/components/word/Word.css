@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0;
+}
+
+.Word_container {
+  display: flex;
+}
+
+.left {
+  width: 40%;
+  height: 500px;
+  border: 1px solid black;
+}
+
+.right {
+  width: 60%;
+  height: 500px;
+  background-color: antiquewhite;
+}
