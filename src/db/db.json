@@ -1,0 +1,34 @@
+{
+  "words": [
+    {
+      "id": 1,
+      "eng": "book",
+      "kor": "책",
+      "isDone": false
+    },
+    {
+      "id": 2,
+      "eng": "car",
+      "kor": "자동차",
+      "isDone": false
+    },
+    {
+      "eng": "mouse",
+      "kor": "쥐",
+      "isDone": false,
+      "id": 3
+    },
+    {
+      "eng": "apple",
+      "kor": "사과",
+      "isDone": false,
+      "id": 4
+    },
+    {
+      "eng": "computer",
+      "kor": "컴퓨터",
+      "isDone": false,
+      "id": 5
+    }
+  ]
+}

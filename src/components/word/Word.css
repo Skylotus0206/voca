@@ -4,7 +4,7 @@
   text-decoration: 0;
 }
 
-.Word_container {
+.word_container {
   display: flex;
 }
 
@@ -14,8 +14,55 @@
   border: 1px solid black;
 }
 
+.word_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.input_area {
+  margin: 10px;
+}
+
+.input_area input {
+  width: 200px;
+  height: 30px;
+}
+
+.word_form button {
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+}
+
 .right {
   width: 60%;
   height: 500px;
-  background-color: antiquewhite;
+  border: 1px solid black;
+  margin: auto 20px;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td {
+  width: 25%;
+  height: 70px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 26px;
+}
+
+table td:first-child {
+  width: 10%;
+}
+
+.off td {
+  background: #eee;
+  color: #ccc;
 }
